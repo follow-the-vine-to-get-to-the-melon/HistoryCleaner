@@ -1,21 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "History Cleaner",
-    "version": "1.2.2",
-    "description": "Deletes history older than a specified amount of days.",
-    "icons": {
-        "48": "icons/icon-48.png",
-        "96": "icons/icon-96.png"
-    },
-    "background": {
-      "scripts": ["libs/browser-polyfill.js", "libs/webext_utilities.js", "background.js"]
-    },
-    "permissions": [
-        "history",
-        "storage",
-        "idle"
-    ],
-    "options_ui": {
-        "page": "options.html"
-    }
+  "manifest_version": 2,
+  "name": "History Cleaner",
+  "version": "1.2.2",
+  "description": "Deletes history older than a specified amount of days.",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "background": {
+    "scripts": [
+      "libs/browser-polyfill.js",
+      "libs/webext_utilities.js",
+      "background.js"
+    ]
+  },
+  "permissions": ["history", "storage", "idle"],
+  "options_ui": {
+    "page": "options.html"
+  }
 }
